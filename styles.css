@@ -1,0 +1,230 @@
+* {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+/* nav bar */
+.navigation {
+  height: 30%;
+  background-color: #1C6250;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.admin-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 2%;
+}
+
+.globe {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+.title {
+  font-family: 'Aleo', serif;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 2%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  color: #D0DAD7;
+}
+
+.map {
+  height: auto;
+  width: 30px;
+  padding: 1% 0 1% 0%;
+  margin: 0;
+}
+
+.share-button {
+  color: #ffffff;
+  padding: 0 1% 0 4%;
+}
+
+.playlist-button {
+  padding: 0 2% 0 1%;
+  height: 20%;
+  width: auto;
+}
+
+.video-button {
+  padding: 0 1% 0 4%;
+  height: 20%;
+  width: auto;
+}
+
+
+.shares {
+  margin: 5% 3% 5% 3%;
+  color: black;
+}
+
+/* cards */
+.parent {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: repeat(4, 30%);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  height: 70%;
+  padding: 0;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 1px 1px 1px grey;
+  height: 100%;
+  width: 100%;
+}
+
+.image-box {
+  background: rgba(0, 0, 0, 0.3);
+  height: 55%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.arrow {
+  margin: 3% 3% 0% 3%;
+  height: 30%;
+}
+
+.image-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3% 3% 0 0;
+  color: white;
+  margin: 0;
+}
+
+.inner-views {
+  font-size: 8px;
+}
+
+.inner-num {
+  font-size: 18px;
+}
+
+.url-box {
+  background-color: #D0DAD7;
+  padding: 2.5% 2.5% 2.5%;
+  margin: 2.5% 0 2.5%;
+  width: 90%;
+  overflow-wrap: break-word;
+}
+
+.playlist {
+  margin-bottom: 2.5%;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  font-weight: 900;
+  padding-top: 3%;
+  padding-left: 5%;
+}
+
+/* card header images */
+.card-1 {
+  background-image: url("https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2FkMDMxMmNmLWVhNGQtNGRjNi04ZWZlLTVlOGQwYmEyZDU1MjBhZTA0MjhlNjAwOTMxMmFhOV8xMjM0cHgtTHVjeV90aGVfRWxlcGhhbnRfTkozLmpwZyJdLFsicCIsInRodW1iIiwiMTIwMHg-Il0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDgxIC1hdXRvLW9yaWVudCJdXQ/1234px-Lucy_the_Elephant_NJ3.jpg");
+  background-position: center;
+}
+
+.card-2 {
+  background-image: url("https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzLzJiZDliMjY0LTg1ZDEtNDM1ZS05MGRiLWI0ZjY1MjIwNDY4MmQ5MmQ5YWU4ZTk4YTI2NWViZF9JTUdfOTE2M2JfU0hMSC5qcGciXSxbInAiLCJjb252ZXJ0IiwiLWF1dG8tb3JpZW50ICJdLFsicCIsInRodW1iIiwiMTE0MHg3NjArMTIrMCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjEyODF4ODU0IyJdXQ/IMG_9163b_SHLH.jpg");
+  background-position: center;
+}
+
+.card-3 {
+  background-image: url("https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzQ5OTcyNWM3YmE5OGIxYjc0M196bS5KUEciXSxbInAiLCJ0aHVtYiIsIjEyMDB4PiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXV0/zm.JPG");
+  background-position: 5% 25%;
+}
+
+.card-4 {
+  background-image: url("https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzQ5YzdmM2EwZjljNzczNDBhZV9zcHRoLTExLW9mLTE1LmpwZyJdLFsicCIsInRodW1iIiwiMTIwMHg-Il0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDgxIC1hdXRvLW9yaWVudCJdXQ");
+  background-position: center;
+}
+
+.card-5 {
+  background-image: url("https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2Q2OTM2ZGYyY2ZhZmM2MmQ5ZV9XaWxkX1Bvbmllc19vZl9Bc3NhdGVhZ3VlX0lzbGFuZC5qcGciXSxbInAiLCJ0aHVtYiIsIjEyMDB4PiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXV0");
+  background-position: center;
+}
+
+.card-6 {
+  background-image: url("https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzM3ODlkYTI4LTgyNzYtNDFhNy1iMDAxLTljNjllZDU2ZjNkY2YzMDU3ZGJhYmNjMjU0YmI2N190cmltcGVyczEuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d/trimpers1.jpg");
+  background-position: center;
+}
+
+.card-7 {
+  background-image: url("https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL21uOW92dmc0emZxZGQ3NDJlZTVlYjk4NmNjMmEwX0lNRy0wMDc0LkpQRyJdLFsicCIsInRodW1iIiwieDM5MD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d/IMG-0074.JPG");
+  background-position: center;
+}
+
+.card-8 {
+  background-image: url("https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2U5ZGYzMjM0ZmM3YmI2OTBjODdkYzI4YzRiOTg2OGUwZGU5NzkzNjUuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d/e9df3234fc7bb690c87dc28c4b9868e0de979365.jpg");
+  background-position: center;
+}
+
+/* Font formatting */
+.light-font {
+  font-weight: normal;
+}
+
+.small-font {
+  font-size: 12px;
+}
+
+/* media queries */
+@media only screen and (min-width: 768px) {
+  .navigation {
+    height: 30%;
+  }
+
+  .shares {
+    margin: 2%;
+    color: black;
+  }
+
+  .parent {
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: repeat(2, 60%);
+  }
+}
